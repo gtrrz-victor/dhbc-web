@@ -1,0 +1,38 @@
+
+.custom-header {
+  &.steel{
+    opacity: 1;
+  }
+  background-color: rgba(34,17,11,.7);
+}
+
+.App {
+  background-color: #0d0d11;
+  text-align: center;
+  a {
+    :hover{
+      color: white;
+    }
+      color: white;
+      text-decoration: none;
+  }
+  .container-fluid{
+    padding: 0px;
+    .row{
+      padding: 0px;
+      margin: 0px;
+      > *{
+        padding: 0px;
+        margin: 0px;
+      }
+    } 
+  }
+  .display-content-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@import "~bootstrap/scss/bootstrap";
