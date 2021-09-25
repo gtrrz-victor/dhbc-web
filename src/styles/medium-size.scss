@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+  .App{
+    .dhbc-title{
+        font-size: x-large;
+        -webkit-text-stroke: 0.5px red;
+    }
+  }
+}
+
+
+@media (max-width: 900px) {
+    .App{
+      .dhbc-title{
+          font-size: large;
+            -webkit-text-stroke: 0.3px red;
+        }
+        .dhbc-logo{
+            width: 100px;
+        }
+    }
+  }
+  

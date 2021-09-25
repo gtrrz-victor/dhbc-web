@@ -1,4 +1,3 @@
-
 .custom-header {
   &.steel{
     opacity: 1;
@@ -6,15 +5,21 @@
   background-color: rgba(34,17,11,.7);
 }
 
+.text-left{
+  text-align: left;
+}
+
 .App {
   background-color: #0d0d11;
   text-align: center;
-  a {
-    :hover{
+  .page-header{
+    -webkit-text-stroke: 0.4px red;
+  }
+  .dhbc-logo{
+    cursor: pointer;
+  }
+  .custom-header a {
       color: white;
-    }
-      color: white;
-      text-decoration: none;
   }
   .container-fluid{
     padding: 0px;
@@ -32,7 +37,29 @@
     display: flex;
     justify-content: center;
   }
+  .dhbc-title{
+    color:white;
+    position: relative;
+    right: 1em;
+    bottom: 3em;
+    font-size: xx-large;
+    width: auto;
+    -webkit-text-stroke: 0.8px red;
+  }
+  .white-font{
+    color:white;
+    a {
+      color: white;
+    }
+  }
+  a {
+    &:hover{
+      color:red
+    }
+    text-decoration: none;
+    color: #515151;
+  }
 }
 
-
+@import "./medium-size.scss";
 @import "~bootstrap/scss/bootstrap";
