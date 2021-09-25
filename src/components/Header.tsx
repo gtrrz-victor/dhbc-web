@@ -36,18 +36,6 @@ function Header(){
             Juniors
           </Link>
         </Nav.Link>
-        <Nav.Link>
-          <Link
-            activeClass="active"
-            to="section3"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Section 3
-          </Link>
-        </Nav.Link>
       </Nav>
     </Container>
   </Navbar>)

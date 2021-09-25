@@ -3,6 +3,7 @@
     opacity: 1;
   }
   background-color: rgba(34,17,11,.7);
+  font-size: large;
 }
 
 .text-left{
@@ -44,7 +45,7 @@
     bottom: 3em;
     font-size: xx-large;
     width: auto;
-    -webkit-text-stroke: 0.8px red;
+    -webkit-text-stroke: 0.4px red;
   }
   .white-font{
     color:white;
@@ -53,9 +54,10 @@
     }
   }
   a {
-    &:hover{
-      color:red
+    &:hover, &.active{
+      color:#f75b5b
     }
+
     text-decoration: none;
     color: #515151;
   }

@@ -19,13 +19,13 @@ function Home() {
                             <Card.Title>Dulwich Hill Bicycle Club</Card.Title>
                             <Card.Text>
                                 <Row>
-                                    <Col className="col-4 p-2">
+                                    <Col className="col-12 col-md-4 p-2">
                                         DHBC is located in the Inner West of Sydney, Australia. We are a non-profit Incorporated Association. Our members share the common goal to participate in, promote and organise competitive and recreational bicycle riding whilst having lots of fun.
                                     </Col>
-                                    <Col className="col-4 p-2">
+                                    <Col className="col-12 col-md-4 p-2">
                                         We are an inclusive club and cater for all levels of fitness, age, participation and cycling preference, be it road, track, gravel, cyclocross, mountain biking or even vintage and classic bicycles. Members are also active in cyclists rights advocacy and road safety initiatives.
                                     </Col>
-                                    <Col className="col-4 p-2">So whether you ride a road bike, gravel bike, track bike, mountain bike, hybrid commuter, fixie or a vintage steel Malvern Star; and whether you just want to come on social rides like Saturday Slowies or you want to be the next Richie Porte, Caleb Ewan, Cameron Meyer, Sarah Roy or Amanda Spratt go to the join page (or you can ‘try before you buy for a couple of rides before joining), then go to Road Rides to pick your first ride and start your cycling with DHBC.</Col>
+                                    <Col className="col-12 col-md-4 p-2">So whether you ride a road bike, gravel bike, track bike, mountain bike, hybrid commuter, fixie or a vintage steel Malvern Star; and whether you just want to come on social rides like Saturday Slowies or you want to be the next Richie Porte, Caleb Ewan, Cameron Meyer, Sarah Roy or Amanda Spratt go to the join page (or you can ‘try before you buy for a couple of rides before joining), then go to Road Rides to pick your first ride and start your cycling with DHBC.</Col>
                                 </Row>
                                 <Row className="pt-4">
                                     <Col className="col-12">
@@ -36,7 +36,7 @@ function Home() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="col-4">
+                <Col className="col-12 col-md-4 pb-2">
                     <Card>
                         <Card.Body>
                             <Card.Title>COMMITTEE MEMBERS</Card.Title>
@@ -54,7 +54,7 @@ function Home() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="col-4">
+                <Col className="col-12 col-md-4 pb-2">
                     <Card>
                         <Card.Body>
                             <Card.Title>Links <i className='fa fa-external-link'></i></Card.Title>
@@ -73,7 +73,7 @@ function Home() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="col-4">
+                <Col className="col-12 col-md-4 pb-2">
                     <Card >
                         <Card.Body>
                             <Card.Title>Facebook groups <i className='fa fa-external-link'></i></Card.Title>
