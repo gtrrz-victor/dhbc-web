@@ -1,18 +1,16 @@
-.custom-header {
-  &.steel{
-    opacity: 1;
-  }
-  background-color: rgba(34,17,11,.7);
-  font-size: large;
-}
-
-.text-left{
-  text-align: left;
-}
 
 .App {
   background-color: #0d0d11;
   text-align: center;
+
+  .custom-header {
+    background-color: rgba(34,17,11,.7);
+    font-size: large;
+  }
+  
+  .text-left{
+    text-align: left;
+  }
   .page-header{
     -webkit-text-stroke: 0.4px red;
   }
@@ -64,4 +62,3 @@
 }
 
 @import "./medium-size.scss";
-@import "~bootstrap/scss/bootstrap";

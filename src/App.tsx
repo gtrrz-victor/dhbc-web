@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import road from './road-1200x450.jpg';
 import Juniors from './components/Juniors'
